@@ -217,7 +217,7 @@ footer {
     height: 250px;
     
     background-color: #1a2238; 
-    border: 2px solid #38bdf8;
+    border: 1px solid rgba(59, 130, 246, 0.15);
     border-radius: 16px;
     
     /* Layout */
