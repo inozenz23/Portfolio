@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width", initial-scale="1.0">
     <title>Portfolio</title>
@@ -12,58 +15,233 @@
 </head>
 <body>
     <header>
-        <h1>Porttfolio</h1>
+        <h1>Razei</h1>
         <nav>
+            <a href="#home">Home</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <div>
-            <h2>Hi I am BLAH BLAH BLAH</h2>
-            <p>A creative Developer</p>
-            <a href="#project" class="btn">View my work</a>
+    <section id="home" class="hero">
+        
+        <div class="hero-content reveal">
+            <div class="hero-text">
+                <h2>Hello! I'm Razeenur Karuwahi</h2>
+                <p>A creative Developer</p>
+                <a href="#project" class="btn">View my work</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://lh3.googleusercontent.com/d/1zJiEwPjCfwq56GXRL-ZcVkUjkDoSSS3y" alt="Razi">
+            </div>
         </div>
+
     </section>
 
     <section id="about" class="about">
-        <h2>About me</h2>
-        <p>palaging tulog</p>
+    <h2>About me</h2>
+        <div class="about-box reveal">
+            <p>Hi, I’m Razee, a 3rd-year student taking Bachelor of Science in Computer Science (BSCS) at the University of the East Manila.</p>
+            <br></br>
+            <p>I am eager to learn new things and continuously improve my skills, with the goal of becoming a skilled software engineer someday. In my free time, I create web pages to keep my knowledge sharp and up to date. Outside of programming, I enjoy playing basketball and playing the guitar. I also love music and often listen to it while coding or doing my own creative activities.</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Project One</h3>
-                <p>A creative design projects</p>
-                <a href="#" class="btn">view</a>
+    <section id="project" class="Project">
+        <h2>Project</h2>
+        <div class="swiper-project reveal">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h2>Portfolio</h2>
+                        <div class="slider-content">
+                            <img src="https://lh3.googleusercontent.com/d/10lqpW5haaB5pRZt2NVU-KGtuefipkG1R" alt="Staynest">
+                        </div>
+                        <a href="https://your-project-link.com" target="_blank" class="project-btn">Live</a>
+                    </div>    
+                    <div class="swiper-slide">
+                        <h2>QuantaPC</h2>
+                        <div class="slider-content">
+                            <img src="https://lh3.googleusercontent.com/d/10OgUXHWotpWQxT6h8c8h_r-LO36dcH-u" alt="QuantaPC">
+                        </div>
+                        <a href="https://quanta-pc.vercel.app/" target="_blank" class="project-btn">Live</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <h2>Staynest</h2>
+                        <div class="slider-content">
+                            <img src="https://lh3.googleusercontent.com/d/17S6o1xCAsmYbWyb6siIc-UFIENIRwxMS" alt="Portfolio">
+                        </div>
+                        <a href="https://staynest-project.vercel.app/" target="_blank" class="project-btn">Live</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>Project Two</h3>
-                <p>A creative design projects</p>
-                <a href="#" class="btn">view</a>
+            <div class="swiper-button-prev">
+                <i class="bx bx-left-arrow-alt"></i>
             </div>
-
-            <div class="card">
-                <h3>Project Three</h3>
-                <p>A creative design projects</p>
-                <a href="#" class="btn">view</a>
+            <div class="swiper-button-next">
+                <i class="bx bx-right-arrow-alt"></i>
             </div>
         </div>
     </section>
 
+
+    <section id="skills">
+        <h2>Skills & Interests</h2>
+        <div class="carousel">
+        <div class="carousel-track">
+            <div class="group">
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1n8OJUU99WSf1q_2Nqx_28QMyikTZhbjs" alt="Python">
+                    <span style="color: white; font-weight: bold;">Python</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/10qJuYbVvWZMmh-KL_GHgUsPPfILO83mD" alt="Java">
+                    <span style="color: white; font-weight: bold;">Java</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1NFvpIMmbgEFqVSY98U8hqqM8rObFJC4V" alt="NodeJS">
+                    <span style="color: white; font-weight: bold;">Node.Js</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1UxtiYnbnHTHrdXAZ8CZmYh5gGHLcH95-" alt="MySQL>
+                    <span style="color: white; font-weight: bold;">MySQL</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1COUJtSr7PRw2dXQu9jgl_n7cKwq4gKp9" alt="HTML">
+                    <span style="color: white; font-weight: bold;">HTML</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1Bny90c9AoJ1SdbHEV2faDyudktEUPLzd" alt="CSS">
+                    <span style="color: white; font-weight: bold;">CSS</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1lm1nea4yN9kywZ8Wp8X8Dr27_f7VndJt" alt="Blender">
+                    <span style="color: white; font-weight: bold;">Blender</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1eIOC5mfJFKGeEhqyMEBJAmrSvndP2I_8" alt="Figma">
+                    <span style="color: white; font-weight: bold;">Figma</span>
+                </div>
+            </div>
+            <div aria-hidden class="group">
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1n8OJUU99WSf1q_2Nqx_28QMyikTZhbjs" alt="Python">
+                    <span style="color: white; font-weight: bold;">Python</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/10qJuYbVvWZMmh-KL_GHgUsPPfILO83mD" alt="Java">
+                    <span style="color: white; font-weight: bold;">Java</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1NFvpIMmbgEFqVSY98U8hqqM8rObFJC4V" alt="NodeJS">
+                    <span style="color: white; font-weight: bold;">Node.Js</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1UxtiYnbnHTHrdXAZ8CZmYh5gGHLcH95-" alt="MySQL>
+                    <span style="color: white; font-weight: bold;">MySQL</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1COUJtSr7PRw2dXQu9jgl_n7cKwq4gKp9" alt="HTML">
+                    <span style="color: white; font-weight: bold;">HTML</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1Bny90c9AoJ1SdbHEV2faDyudktEUPLzd" alt="CSS">
+                    <span style="color: white; font-weight: bold;">CSS</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1lm1nea4yN9kywZ8Wp8X8Dr27_f7VndJt" alt="Blender">
+                    <span style="color: white; font-weight: bold;">Blender</span>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/d/1eIOC5mfJFKGeEhqyMEBJAmrSvndP2I_8" alt="Figma">
+                    <span style="color: white; font-weight: bold;">Figma</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Email: razikaruwahi@gmail.com</p>
-        <p>LinkedIn: razi karuwahi</p>
+        <h2>Contact Me</h2>
+        <div class="contact-info reveal">
+            <p>
+                <i class="bi bi-envelope-fill me-2"></i> 
+                <a href="mailto:razikaruwahi@gmail.com">razikaruwahi@gmail.com</a>
+            </p>
+            <p>
+                <i class="bi bi-linkedin me-2"></i> 
+                <a href="https://www.linkedin.com/in/razee-karuwahi-0752b9403/" target="_blank">razee karuwahi</a>
+            </p>
+            <p>
+                <i class="bi bi-github"></i> 
+                <a href="https://github.com/inozenz23" target="_blank">Inozenz23</a>
+            </p>
+        </div>
     </section>
 
     <footer>
         <p>@2026 Razi Karuwahi. All rights reserved</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+        var swiper = new Swiper(".swiper",{
+            effect: "coverflow",
+            grabCursor:true,
+            centeredSlides:true,
+            slidesPerView: "auto",
+            coverflowEffect:{
+                rotate:0,
+                stretch:0,
+                depth:100,
+                modifier:4,
+                slideShadows:true
+            },
+            loop:true,
+            navigation:{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            keyboard:{
+                enabled:true
+            },
+            mousewheel:{
+                thresholdDelta: 70
+            },
+            breakpoints:{
+                560:{
+                    slidesPerView: 2.5
+                },
+                768:{
+                    slidePerView: 3
+                },
+                1024:{
+                    slidesPerview: 3
+                }
+            }
+        });
+    </script>
+
+    <script>
+    /* Java Script for reveal*/
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        } else {
+                entry.target.classList.remove('active');
+            }
+        });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    const hiddenElements = document.querySelectorAll('.reveal');
+    hiddenElements.forEach((el) => observer.observe(el));
+    </script>
 </body>
 </html>
